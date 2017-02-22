@@ -1,0 +1,11 @@
+app_afiliado:
+    resource: "@AppBundle/Resources/config/routing/afiliado.yml"
+    prefix:   /afiliado
+
+app_trabajo:
+    resource: "@AppBundle/Resources/config/routing/trabajo.yml"
+    prefix:   /trabajo
+
+app_categoria:
+    resource: "@AppBundle/Resources/config/routing/categoria.yml"
+    prefix:   /categoria

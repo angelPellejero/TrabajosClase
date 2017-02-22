@@ -1,0 +1,24 @@
+afiliado_index:
+    path:     /
+    defaults: { _controller: "AppBundle:Afiliado:index" }
+    methods:  GET
+
+afiliado_show:
+    path:     /{id}/show
+    defaults: { _controller: "AppBundle:Afiliado:show" }
+    methods:  GET
+
+afiliado_new:
+    path:     /new
+    defaults: { _controller: "AppBundle:Afiliado:new" }
+    methods:  [GET, POST]
+
+afiliado_edit:
+    path:     /{id}/edit
+    defaults: { _controller: "AppBundle:Afiliado:edit" }
+    methods:  [GET, POST]
+
+afiliado_delete:
+    path:     /{id}/delete
+    defaults: { _controller: "AppBundle:Afiliado:delete" }
+    methods:  DELETE
